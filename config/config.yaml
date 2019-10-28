@@ -1,0 +1,28 @@
+%YAML:1.0
+---
+
+#left calib image saved path(str)
+local_imagePathL: "../data/test_data/20190903_01/L/imagePath.txt"
+
+#right calib image saved path(str)
+local_imagePathR: "../data/test_data/20190903_01/R/imagePath.txt"
+
+# 0:yuv /1:png/jpg
+imageType: 1
+
+image_size:
+  -
+    width: 752
+    height: 480
+
+#caliboard size
+board_size:
+    -
+      width: 4
+      height: 11
+
+#  mm
+square_size: 42.0
+
+
+
